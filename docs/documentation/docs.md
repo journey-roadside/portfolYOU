@@ -17,4 +17,7 @@ weight: 5
 {% include_relative {{ relative_path }} %}
 {% endfor %}
 
-{% include elements/github-edit-footer.html %}
+<footer class="github-footer">
+    This page is <b>open source</b>. Noticed a typo? <br />
+    Or something unclear? <a href="{{ site.github.repository_url }}/edit/master/docs/documentation/docs.md">Improve it on GitHub</a>.
+</footer>
